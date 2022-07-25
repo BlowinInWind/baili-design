@@ -1,0 +1,16 @@
+{
+  "useWorkspaces": true,
+  "private": true,
+  "packages": [
+    "packages/ui/*",
+    "packages/*"
+  ],
+  "version": "independent",
+  "npmClient": "yarn",
+  "registry": "https://registry.npmjs.org/",
+  "bootstrap": {
+    "npmClientArgs": [
+      "--no-package-lock"
+    ]
+  }
+}
