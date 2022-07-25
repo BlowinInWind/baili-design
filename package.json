@@ -1,0 +1,23 @@
+{
+  "name": "baili-design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlowinInWind/baili-design.git"
+  },
+  "keywords": [],
+  "dependencies": {
+    "lerna": "^5.2.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlowinInWind/baili-design/issues"
+  },
+  "homepage": "https://github.com/BlowinInWind/baili-design#readme"
+}
