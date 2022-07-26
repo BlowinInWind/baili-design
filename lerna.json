@@ -1,6 +1,11 @@
 {
-  "packages": [
-    "packages/*"
-  ],
-  "version": "independent"
+  "packages": ["packages/*", "packages/ui/*"],
+  "version": "independent",
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "useNx": false,
+  "npmClient": "yarn",
+  "bootstrap": {
+    "npmClientArgs": ["--no-package-lock"]
+  },
+  "useWorkspaces": true
 }

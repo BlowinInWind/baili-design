@@ -1,0 +1,29 @@
+{
+  "name": "@baili/input",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "姜通 <jiangtong@xiaomi.com>",
+  "homepage": "https://github.com/BlowinInWind/baili-design#readme",
+  "license": "ISC",
+  "main": "lib/input.js",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://pkgs.d.xiaomi.net/artifactory/api/npm/mi-npm/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlowinInWind/baili-design.git"
+  },
+  "scripts": {
+    "clean": "rimraf lib",
+    "prebuild": "yarn clean",
+    "build:types": "tsc --emitDeclarationOnly --declaration --declarationDir lib/types",
+    "build": "concurrently yarn:build:*",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/BlowinInWind/baili-design/issues"
+  }
+}

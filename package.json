@@ -1,7 +1,44 @@
 {
   "name": "root",
   "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "packages/ui/*"
+    ]
+  },
+  "scripts": {
+    "build": "lerna run build --no-private --sort",
+    "bootstrap": "lerna bootstrap",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "@babel/core": "^7.18.9",
+    "@storybook/addon-actions": "^6.5.9",
+    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/addon-interactions": "^6.5.9",
+    "@storybook/addon-links": "^6.5.9",
+    "@storybook/builder-webpack4": "^6.5.9",
+    "@storybook/manager-webpack4": "^6.5.9",
+    "@storybook/testing-library": "^0.0.13",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
+    "babel-loader": "^8.2.5",
+    "concurrently": "^7.3.0",
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-storybook": "^0.6.1",
+    "lerna": "^5.2.0",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "@storybook/react": "^6.5.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
