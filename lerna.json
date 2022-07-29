@@ -1,5 +1,5 @@
 {
-  "packages": ["packages/*", "packages/ui/*"],
+  "packages": ["packages/*", "packages/ui/*", "packages/components/*"],
   "version": "independent",
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "useNx": false,

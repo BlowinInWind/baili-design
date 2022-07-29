@@ -4,7 +4,8 @@
   "workspaces": {
     "packages": [
       "packages/*",
-      "packages/ui/*"
+      "packages/ui/*",
+      "packages/components/*"
     ]
   },
   "scripts": {
@@ -32,6 +33,7 @@
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-react": "^7.30.1",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "rollup": "^2.77.2",
     "eslint-plugin-storybook": "^0.6.1",
     "lerna": "^5.2.0",
     "typescript": "^4.7.3"

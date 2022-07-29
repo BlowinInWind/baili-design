@@ -25,5 +25,11 @@
   },
   "bugs": {
     "url": "https://github.com/BlowinInWind/baili-design/issues"
+  },
+  "dependencies": {
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "devDependencies": {
+    "rollup": "^2.77.2"
   }
 }

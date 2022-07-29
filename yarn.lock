@@ -2404,6 +2404,14 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
+"@rollup/pluginutils@^4.1.1":
+  version "4.2.1"
+  resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/@rollup/pluginutils/-/pluginutils-4.2.1.tgz#e6c6c3aba0744edce3fb2074922d3776c0af2a6d"
+  integrity sha1-5sbDq6B0Ttzj+yB0ki03dsCvKm0=
+  dependencies:
+    estree-walker "^2.0.1"
+    picomatch "^2.2.2"
+
 "@storybook/addon-actions@6.5.9", "@storybook/addon-actions@^6.5.9":
   version "6.5.9"
   resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/@storybook/addon-actions/-/addon-actions-6.5.9.tgz#d50d65631403e1a5b680961429d9c0d7bd383e68"
@@ -6254,7 +6262,7 @@ es-get-iterator@^1.0.2:
     is-string "^1.0.5"
     isarray "^2.0.5"
 
-es-module-lexer@^0.9.0:
+es-module-lexer@^0.9.0, es-module-lexer@^0.9.3:
   version "0.9.3"
   resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/es-module-lexer/-/es-module-lexer-0.9.3.tgz#6f13db00cc38417137daf74366f535c8eb438f19"
   integrity sha1-bxPbAMw4QXE32vdDZvU1yOtDjxk=
@@ -6284,6 +6292,132 @@ es6-shim@^0.35.5:
   version "0.35.6"
   resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/es6-shim/-/es6-shim-0.35.6.tgz#d10578301a83af2de58b9eadb7c2c9945f7388a0"
   integrity sha1-0QV4MBqDry3li56tt8LJlF9ziKA=
+
+esbuild-android-64@0.14.51:
+  version "0.14.51"
+  resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/esbuild-android-64/-/esbuild-android-64-0.14.51.tgz#414a087cb0de8db1e347ecca6c8320513de433db"
+  integrity sha1-QUoIfLDejbHjR+zKbIMgUT3kM9s=
+
+esbuild-android-arm64@0.14.51:
+  version "0.14.51"
+  resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/esbuild-android-arm64/-/esbuild-android-arm64-0.14.51.tgz#55de3bce2aab72bcd2b606da4318ad00fb9c8151"
+  integrity sha1-Vd47ziqrcrzStgbaQxitAPucgVE=
+
+esbuild-darwin-64@0.14.51:
+  version "0.14.51"
+  resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/esbuild-darwin-64/-/esbuild-darwin-64-0.14.51.tgz#4259f23ed6b4cea2ec8a28d87b7fb9801f093754"
+  integrity sha1-QlnyPta0zqLsiijYe3+5gB8JN1Q=
+
+esbuild-darwin-arm64@0.14.51:
+  version "0.14.51"
+  resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/esbuild-darwin-arm64/-/esbuild-darwin-arm64-0.14.51.tgz#d77b4366a71d84e530ba019d540b538b295d494a"
+  integrity sha1-13tDZqcdhOUwugGdVAtTiyldSUo=
+
+esbuild-freebsd-64@0.14.51:
+  version "0.14.51"
+  resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/esbuild-freebsd-64/-/esbuild-freebsd-64-0.14.51.tgz#27b6587b3639f10519c65e07219d249b01f2ad38"
+  integrity sha1-J7ZYezY58QUZxl4HIZ0kmwHyrTg=
+
+esbuild-freebsd-arm64@0.14.51:
+  version "0.14.51"
+  resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/esbuild-freebsd-arm64/-/esbuild-freebsd-arm64-0.14.51.tgz#63c435917e566808c71fafddc600aca4d78be1ec"
+  integrity sha1-Y8Q1kX5WaAjHH6/dxgCspNeL4ew=
+
+esbuild-linux-32@0.14.51:
+  version "0.14.51"
+  resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/esbuild-linux-32/-/esbuild-linux-32-0.14.51.tgz#c3da774143a37e7f11559b9369d98f11f997a5d9"
+  integrity sha1-w9p3QUOjfn8RVZuTadmPEfmXpdk=
+
+esbuild-linux-64@0.14.51:
+  version "0.14.51"
+  resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/esbuild-linux-64/-/esbuild-linux-64-0.14.51.tgz#5d92b67f674e02ae0b4a9de9a757ba482115c4ae"
+  integrity sha1-XZK2f2dOAq4LSp3pp1e6SCEVxK4=
+
+esbuild-linux-arm64@0.14.51:
+  version "0.14.51"
+  resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/esbuild-linux-arm64/-/esbuild-linux-arm64-0.14.51.tgz#dac84740516e859d8b14e1ecc478dd5241b10c93"
+  integrity sha1-2shHQFFuhZ2LFOHsxHjdUkGxDJM=
+
+esbuild-linux-arm@0.14.51:
+  version "0.14.51"
+  resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/esbuild-linux-arm/-/esbuild-linux-arm-0.14.51.tgz#b3ae7000696cd53ed95b2b458554ff543a60e106"
+  integrity sha1-s65wAGls1T7ZWytFhVT/VDpg4QY=
+
+esbuild-linux-mips64le@0.14.51:
+  version "0.14.51"
+  resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/esbuild-linux-mips64le/-/esbuild-linux-mips64le-0.14.51.tgz#dad10770fac94efa092b5a0643821c955a9dd385"
+  integrity sha1-2tEHcPrJTvoJK1oGQ4IclVqd04U=
+
+esbuild-linux-ppc64le@0.14.51:
+  version "0.14.51"
+  resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/esbuild-linux-ppc64le/-/esbuild-linux-ppc64le-0.14.51.tgz#b68c2f8294d012a16a88073d67e976edd4850ae0"
+  integrity sha1-towvgpTQEqFqiAc9Z+l27dSFCuA=
+
+esbuild-linux-riscv64@0.14.51:
+  version "0.14.51"
+  resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/esbuild-linux-riscv64/-/esbuild-linux-riscv64-0.14.51.tgz#608a318b8697123e44c1e185cdf6708e3df50b93"
+  integrity sha1-YIoxi4aXEj5EweGFzfZwjj31C5M=
+
+esbuild-linux-s390x@0.14.51:
+  version "0.14.51"
+  resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/esbuild-linux-s390x/-/esbuild-linux-s390x-0.14.51.tgz#c9e7791170a3295dba79b93aa452beb9838a8625"
+  integrity sha1-yed5EXCjKV26ebk6pFK+uYOKhiU=
+
+esbuild-netbsd-64@0.14.51:
+  version "0.14.51"
+  resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/esbuild-netbsd-64/-/esbuild-netbsd-64-0.14.51.tgz#0abd40b8c2e37fda6f5cc41a04cb2b690823d891"
+  integrity sha1-Cr1AuMLjf9pvXMQaBMsraQgj2JE=
+
+esbuild-openbsd-64@0.14.51:
+  version "0.14.51"
+  resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/esbuild-openbsd-64/-/esbuild-openbsd-64-0.14.51.tgz#4adba0b7ea7eb1428bb00d8e94c199a949b130e8"
+  integrity sha1-Stugt+p+sUKLsA2OlMGZqUmxMOg=
+
+esbuild-sunos-64@0.14.51:
+  version "0.14.51"
+  resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/esbuild-sunos-64/-/esbuild-sunos-64-0.14.51.tgz#4b8a6d97dfedda30a6e39607393c5c90ebf63891"
+  integrity sha1-S4ptl9/t2jCm45YHOTxckOv2OJE=
+
+esbuild-windows-32@0.14.51:
+  version "0.14.51"
+  resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/esbuild-windows-32/-/esbuild-windows-32-0.14.51.tgz#d31d8ca0c1d314fb1edea163685a423b62e9ac17"
+  integrity sha1-0x2MoMHTFPse3qFjaFpCO2LprBc=
+
+esbuild-windows-64@0.14.51:
+  version "0.14.51"
+  resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/esbuild-windows-64/-/esbuild-windows-64-0.14.51.tgz#7d3c09c8652d222925625637bdc7e6c223e0085d"
+  integrity sha1-fTwJyGUtIiklYlY3vcfmwiPgCF0=
+
+esbuild-windows-arm64@0.14.51:
+  version "0.14.51"
+  resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/esbuild-windows-arm64/-/esbuild-windows-arm64-0.14.51.tgz#0220d2304bfdc11bc27e19b2aaf56edf183e4ae9"
+  integrity sha1-AiDSMEv9wRvCfhmyqvVu3xg+Suk=
+
+esbuild@^0.14.51:
+  version "0.14.51"
+  resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/esbuild/-/esbuild-0.14.51.tgz#1c8ecbc8db3710da03776211dc3ee3448f7aa51e"
+  integrity sha1-HI7LyNs3ENoDd2IR3D7jRI96pR4=
+  optionalDependencies:
+    esbuild-android-64 "0.14.51"
+    esbuild-android-arm64 "0.14.51"
+    esbuild-darwin-64 "0.14.51"
+    esbuild-darwin-arm64 "0.14.51"
+    esbuild-freebsd-64 "0.14.51"
+    esbuild-freebsd-arm64 "0.14.51"
+    esbuild-linux-32 "0.14.51"
+    esbuild-linux-64 "0.14.51"
+    esbuild-linux-arm "0.14.51"
+    esbuild-linux-arm64 "0.14.51"
+    esbuild-linux-mips64le "0.14.51"
+    esbuild-linux-ppc64le "0.14.51"
+    esbuild-linux-riscv64 "0.14.51"
+    esbuild-linux-s390x "0.14.51"
+    esbuild-netbsd-64 "0.14.51"
+    esbuild-openbsd-64 "0.14.51"
+    esbuild-sunos-64 "0.14.51"
+    esbuild-windows-32 "0.14.51"
+    esbuild-windows-64 "0.14.51"
+    esbuild-windows-arm64 "0.14.51"
 
 escalade@^3.1.1:
   version "3.1.1"
@@ -6552,6 +6686,11 @@ estree-to-babel@^3.1.0:
     "@babel/traverse" "^7.1.6"
     "@babel/types" "^7.2.0"
     c8 "^7.6.0"
+
+estree-walker@^2.0.1:
+  version "2.0.2"
+  resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/estree-walker/-/estree-walker-2.0.2.tgz#52f010178c2a4c117a7757cfe942adb7d2da4cac"
+  integrity sha1-UvAQF4wqTBF6d1fP6UKtt9LaTKw=
 
 esutils@^2.0.2:
   version "2.0.3"
@@ -8473,6 +8612,11 @@ jest-worker@^27.4.5:
     merge-stream "^2.0.0"
     supports-color "^8.0.0"
 
+joycon@^3.0.1:
+  version "3.1.1"
+  resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/joycon/-/joycon-3.1.1.tgz#bce8596d6ae808f8b68168f5fc69280996894f03"
+  integrity sha1-vOhZbWroCPi2gWj1/GkoCZaJTwM=
+
 js-string-escape@^1.0.1:
   version "1.0.1"
   resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/js-string-escape/-/js-string-escape-1.0.1.tgz#e2625badbc0d67c7533e9edc1068c587ae4137ef"
@@ -8554,6 +8698,11 @@ jsonc-parser@3.0.0:
   version "3.0.0"
   resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/jsonc-parser/-/jsonc-parser-3.0.0.tgz#abdd785701c7e7eaca8a9ec8cf070ca51a745a22"
   integrity sha1-q914VwHH5+rKip7IzwcMpRp0WiI=
+
+jsonc-parser@^3.0.0:
+  version "3.1.0"
+  resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/jsonc-parser/-/jsonc-parser-3.1.0.tgz#73b8f0e5c940b83d03476bc2e51a20ef0932615d"
+  integrity sha1-c7jw5clAuD0DR2vC5Rog7wkyYV0=
 
 jsonfile@^6.0.1:
   version "6.1.0"
@@ -10417,7 +10566,7 @@ picocolors@^1.0.0:
   resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
   integrity sha1-y1vcdP8/UYkiNur3nWi8RFZKuBw=
 
-picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.3.0, picomatch@^2.3.1:
+picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.2, picomatch@^2.3.0, picomatch@^2.3.1:
   version "2.3.1"
   resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
   integrity sha1-O6ODNzNkbZ0+SZWUbBNlpn+wekI=
@@ -11406,6 +11555,24 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
   dependencies:
     hash-base "^3.0.0"
     inherits "^2.0.1"
+
+rollup-plugin-esbuild@^4.9.1:
+  version "4.9.1"
+  resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/rollup-plugin-esbuild/-/rollup-plugin-esbuild-4.9.1.tgz#369d137e2b1542c8ee459495fd4f10de812666aa"
+  integrity sha1-Np0TfisVQsjuRZSV/U8Q3oEmZqo=
+  dependencies:
+    "@rollup/pluginutils" "^4.1.1"
+    debug "^4.3.3"
+    es-module-lexer "^0.9.3"
+    joycon "^3.0.1"
+    jsonc-parser "^3.0.0"
+
+rollup@^2.77.2:
+  version "2.77.2"
+  resolved "https://pkgs.d.xiaomi.net:443/artifactory/api/npm/mi-npm/rollup/-/rollup-2.77.2.tgz#6b6075c55f9cc2040a5912e6e062151e42e2c4e3"
+  integrity sha1-a2B1xV+cwgQKWRLm4GIVHkLixOM=
+  optionalDependencies:
+    fsevents "~2.3.2"
 
 rsvp@^4.8.4:
   version "4.8.5"
