@@ -31,13 +31,13 @@ export default {
             exclude: ['node_modules/**']
         }),
 
-        typescript({ exclude: ['node_modules/**'] }),
+        // typescript({ exclude: ['node_modules/**'] }),
 
         // eslint({
         //     exclude: ['node_modules/**']
         // }),
 
-        // typescript(),
+        typescript(),
 
         // esbuild({
         //     include: /\.[jt]sx?$/,
