@@ -5,11 +5,11 @@ import nodeResolve from '@rollup/plugin-node-resolve';
 import json from '@rollup/plugin-json';
 import commonjs from '@rollup/plugin-commonjs';
 import replace from '@rollup/plugin-replace';
-import babel, { getBabelOutputPlugin } from '@rollup/plugin-babel';
+// import babel, { getBabelOutputPlugin } from '@rollup/plugin-babel';
 // import eslint from '@rollup/plugin-eslint';
 // import { getBabelOutputPlugin } from '@rollup/plugin-babel';
 // import typescript from '@rollup/plugin-typescript';
-import typescript from 'rollup-plugin-typescript2';
+// import typescript from 'rollup-plugin-typescript2';
 
 export default {
     input: path.resolve(__dirname, './src/index.tsx'),
