@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 
-export default () => {
+interface ButtonProps {
+    type: string;
+}
+
+export default (props: ButtonProps) => {
     const [state, setState] = useState(1);
 
     return (
@@ -12,6 +16,7 @@ export default () => {
         >
             jiangtong
             {state}
+            {props.type}
         </button>
     );
 };

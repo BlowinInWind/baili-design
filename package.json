@@ -8,6 +8,9 @@
             "packages/components/*"
         ]
     },
+    "engines": {
+        "node": ">=12.22.1"
+    },
     "scripts": {
         "build": "lerna run build --no-private --sort",
         "bootstrap": "lerna bootstrap",

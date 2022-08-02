@@ -30,6 +30,7 @@ yarn-error.log
 .turbo
 build/**
 dist/**
+dist
 .next/**
 
 storybook-static
