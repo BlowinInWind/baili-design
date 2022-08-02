@@ -28,7 +28,7 @@ module.exports = {
                 loose: true,
                 useBuiltIns: 'usage',
                 corejs: '3',
-                // rollup have to use EsModules to import
+                targets: { chrome: '58', ie: '11' },
                 modules: false
             }
         ],
